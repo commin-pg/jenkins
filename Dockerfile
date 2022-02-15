@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get -y install apt-transport-https \
         ca-certificates \
         curl \
-        gunpg2 \
+        # gunpg2 \
         zip \
         unzip \
         software-properties-common && \
